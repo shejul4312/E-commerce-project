@@ -1,0 +1,13 @@
+button{
+    background-color:#7dd5e4 ;
+    color: aliceblue;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+
+
+button:hover{
+    background-color: rgb(231, 76, 29);
+}

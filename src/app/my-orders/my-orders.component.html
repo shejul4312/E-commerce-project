@@ -1,0 +1,54 @@
+
+
+
+
+
+<section class="h-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-10 col-xl-8">
+          <div class="card" style="border-radius: 10px;">
+            <div class="card-header px-4 py-5">
+              <h5 class="text-muted mb-0">Thanks for your Order, <span style="color: #a8729a;"></span>!</h5>
+            </div>
+            
+              <div class="card shadow-0 border mb-4" *ngFor="let order of orderData">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <img src="https://www.clipartmax.com/png/middle/210-2106541_track-my-order-beach-volleyball.png"
+                        class="img-fluid" alt="Phone">
+                    </div>
+                    <div class="col-md-2 text-center d-flex justify-content-center align-items-center">
+                      <p class="text-muted mb-0">Order Id:{{order.id}}</p>
+                    </div>
+                    <div class="col-md-2 text-center d-flex justify-content-center align-items-center">
+                      <p class="text-muted mb-0 small">Price:{{order.totalPrice}}</p>
+                    </div>
+                    <div class="col-md-2 text-center d-flex justify-content-center align-items-center">
+                      <p class="text-muted mb-0 small">Stutas:In prosess</p>
+                    </div>
+                    <div class="col-md-3 text-center d-flex justify-content-center align-items-center">
+            <button class="form-button" (click)="cancelOrder(order.id)">Cancel Order</button>
+                    
+                    </div>
+                    
+                  </div>
+                  <hr class="mb-4" style="background-color: #e0e0e0; opacity: 1;">
+                 
+                    
+                    
+                  
+                </div>
+              
+           
+  
+              
+  
+  
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

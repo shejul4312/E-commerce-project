@@ -1,0 +1,63 @@
+<!-- <section class="vh-100"> -->
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100 mt-4">
+          <div class="col-md-9 col-lg-6 col-xl-5">
+            <img src="https://cdn.dribbble.com/users/1126935/screenshots/15822765/media/40d418c98bd9563aab598b8309a1f079.png?compress=1&resize=768x576&vertical=center"
+              class="img-fluid" alt="Sample image">
+          </div>
+          <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+            <h1 class="text-primary mx-5">Add Product</h1>
+            <p class="text-success">{{addProductMessage}}</p>
+            <form [formGroup]="add" >
+            
+    
+              <div class="form-outline mb-4">
+                  <input type="email" id="form3Example3" class="form-control form-control-lg"
+                    placeholder="Enter Product Name" formControlName="name" name="name" />
+                  <!-- <label class="form-label" for="form3Example3">Name</label> -->
+                </div>
+    
+              <div class="form-outline mb-4">
+                <input type="email" id="form3Example3" class="form-control form-control-lg"
+                  placeholder="Enter Product Price" formControlName="price" name="price" />
+                <!-- <label class="form-label" for="form3Example3">Email address</label> -->
+              </div>
+    
+              <div class="form-outline mb-3">
+                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter Product Color" formControlName="color" name="color"/>
+                <!-- <label class="form-label" for="form3Example4">Password</label> -->
+              </div>
+
+              <div class="form-outline mb-3">
+                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter Product Catagory" formControlName="Catagory" name="Catagory"/>
+                <!-- <label class="form-label" for="form3Example4">Password</label> -->
+              </div>
+    
+              <div class="form-outline mb-3">
+                <textarea name="" id="" cols="10" rows="10"
+                id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter Product Description" formControlName="Description" name="Description"></textarea>
+                <!-- <label class="form-label" for="form3Example4">Password</label> -->
+              </div>
+
+              <div class="form-outline mb-3">
+                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter Product image URL" formControlName="url" name="url"/>
+                <!-- <label class="form-label" for="form3Example4">Password</label> -->
+              </div>
+              
+              
+    
+              <div class="text-center text-lg-start mt-4 pt-2">
+                <button type="button" class="btn btn-primary btn-lg"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem;" (click)="submit()">Add Product
+              </button>
+             
+              </div>
+    
+            </form>
+          </div>
+        </div>
+      </div>

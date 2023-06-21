@@ -1,0 +1,407 @@
+{
+  "seller": [
+    {
+      "name": "sam sidhu",
+      "email": "sam@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "password": "abc@123",
+      "email": "peter@test.com",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "password": "abc@123",
+      "email": "bruce@test.com",
+      "id": 4
+    },
+    {
+      "name": "anil",
+      "password": "abc123",
+      "email": "anil@test.com",
+      "id": 5
+    },
+    {
+      "name": "alena",
+      "password": "abc123",
+      "email": "alena@test.com",
+      "id": 6
+    },
+    {
+      "name": "sam",
+      "password": "abc@123",
+      "email": "sam@test.com",
+      "id": 7
+    },
+    {
+      "name": "bhasker",
+      "password": "abc@123",
+      "email": "bhasker@test.com",
+      "id": 8
+    },
+    {
+      "name": "Anand Shejul",
+      "password": "Anand4312",
+      "email": "anandshejul90@gmail.com",
+      "id": 9
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "name": "Anand Shejul",
+      "emailId": "anndshju89@gamil.com",
+      "password": "Anand4312",
+      "id": 11
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 18
+    }
+  ],
+  "product": [
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "Catagory": "tablet",
+      "color": "white",
+      "Description": "this is a Samsung product",
+      "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "id": 1
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "3000",
+      "Catagory": "Shoes",
+      "color": "Black",
+      "Description": "Best shoes for Running",
+      "url": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "id": 4
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "Catagory": "Jeans",
+      "color": "blue",
+      "Description": "Confirmable jeans for man ",
+      "url": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "id": 5
+    },
+    {
+      "name": "Truck",
+      "price": "Toy",
+      "Catagory": "Toys",
+      "color": "Red",
+      "Description": "A toy for 5 year old child",
+      "url": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
+      "id": 6
+    },
+    {
+      "name": "Noise Smart Watch",
+      "price": "2000",
+      "Catagory": "Watch",
+      "color": "Black",
+      "Description": "Noise smart watch for man and women both",
+      "url": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "id": 7
+    }
+  ],
+  "user": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": 4
+    },
+    {
+      "name": "Anand Shejul",
+      "email": "anandshejul90@gmail.com",
+      "password": "Anand4312",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "name": "Anand Shejul",
+      "email": "shejulanand7@gmail.com",
+      "password": "kjasdhk",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "name": "anand4312",
+      "email": "anandshejul90",
+      "password": "sdjhchaj",
+      "id": 12
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 14
+    },
+    {
+      "name": "Anand Shejul",
+      "email": "",
+      "password": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 17
+    },
+    {
+      "name": "Anand@",
+      "email": "",
+      "password": "",
+      "id": 18
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 20
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "Catagory": "mobile",
+      "color": "white",
+      "Description": "this is a Samsung product",
+      "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": 7
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "Catagory": "Jeans",
+      "color": "blue",
+      "Description": "Confirmable jeans for man ",
+      "url": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "name": "Nike Shoes",
+      "price": "3000",
+      "Catagory": "Shoes",
+      "color": "Black",
+      "Description": "Best shoes for Running",
+      "url": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
+      "quantity": 1,
+      "productId": 4,
+      "userId": 13,
+      "id": 9
+    },
+    {
+      "name": "Samsung m 40 a ",
+      "price": "550",
+      "Catagory": "tablet",
+      "color": "white",
+      "Description": "this is a Samsung product",
+      "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 20,
+      "id": 10
+    }
+  ],
+  "orders": [
+    {
+      "email": "anil@user.com",
+      "address": "noida sector x",
+      "contact": "9999",
+      "totalPrice": 104750,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "anil@test.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": 3
+    },
+    {
+      "contact": "",
+      "email": "",
+      "address": "",
+      "totalPrice": 35100,
+      "userId": 14,
+      "id": 6
+    },
+    {
+      "contact": "",
+      "email": "",
+      "address": "",
+      "totalPrice": 35100,
+      "userId": 14,
+      "id": 11
+    },
+    {
+      "contact": "",
+      "email": "",
+      "address": "",
+      "totalPrice": 35100,
+      "userId": 14,
+      "id": 12
+    },
+    {
+      "contact": "",
+      "email": "",
+      "address": "",
+      "totalPrice": 650,
+      "userId": 14,
+      "id": 13
+    },
+    {
+      "contact": "",
+      "email": "",
+      "address": "",
+      "totalPrice": 100,
+      "userId": 14,
+      "id": 14
+    },
+    {
+      "contact": "",
+      "email": "",
+      "address": "",
+      "totalPrice": 100,
+      "userId": 14,
+      "id": 15
+    },
+    {
+      "contact": "",
+      "email": "",
+      "address": "",
+      "totalPrice": 100,
+      "userId": 14,
+      "id": 16
+    },
+    {
+      "contact": "",
+      "email": "",
+      "address": "",
+      "totalPrice": 5100,
+      "userId": 16,
+      "id": 17
+    }
+  ]
+}

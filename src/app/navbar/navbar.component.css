@@ -1,0 +1,29 @@
+a:hover{
+    color: rgb(238, 69, 69);
+}
+
+a{
+    color: black;
+}
+
+img{
+    height: 40px;
+    width: 60px;
+}
+
+.container{
+    position: sticky;
+    top: 0;
+    background-color: rgb(159, 203, 241);
+}
+
+@media (max-width:600px){
+    input{
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .btn{
+        width: 30%;
+    }
+}

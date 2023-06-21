@@ -1,0 +1,28 @@
+{
+  "seller": [
+    {
+      "name": "Anand",
+      "emailId": "anndshju89@gamil.com",
+      "password": "Anand4312@",
+      "id": 1
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "emailId": "",
+      "password": "",
+      "id": 4
+    }
+  ]
+}

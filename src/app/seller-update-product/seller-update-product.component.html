@@ -1,0 +1,56 @@
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100 mt-4">
+          <div class="col-md-9 col-lg-6 col-xl-5">
+            <img src="https://cartcraze.com/sites/default/files/assets/images/blog-images/visual-inspiration-15-e-commerce-websites-with-beautiful-clean-design.jpg"
+              class="img-fluid" alt="Sample image">
+          </div>
+          <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+            <h1 class="text-primary mx-5">Update Product</h1>
+            <p class="text-success">{{productMessage}}</p>
+            <form #add="ngForm"  >
+            
+    
+              <div class="form-outline mb-4">
+                  <input type="email" id="form3Example3" class="form-control form-control-lg"
+                    placeholder="Enter Product Name"  name="name"ngModel="{{productData ?.name}}" />
+                </div>
+    
+              <div class="form-outline mb-4">
+                <input type="email" id="form3Example3" class="form-control form-control-lg"
+                  placeholder="Enter Product Price"  name="price" ngModel="{{productData ?.price}}" />
+              </div>
+    
+              <div class="form-outline mb-3">
+                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter Product Color" name="color" ngModel="{{productData ?.color}}"/>
+              </div>
+
+              <div class="form-outline mb-3">
+                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter Product Catagory"  name="Catagory" ngModel="{{productData ?.Catagory}}"/>
+              </div>
+    
+              <div class="form-outline mb-3">
+                <textarea name="" id="" cols="10" rows="10"
+                id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter Product Description" name="Description" ngModel="{{productData ?.Description}}"></textarea>
+              </div>
+
+              <div class="form-outline mb-3">
+                <input type="password" id="form3Example4" class="form-control form-control-lg"
+                  placeholder="Enter Product image URL" name="url" ngModel="{{productData ?.url}}"/>
+              </div>
+              
+              
+    
+              <div class="text-center text-lg-start mt-4 pt-2">
+                <button type="button" class="btn btn-primary btn-lg"
+                  style="padding-left: 2.5rem; padding-right: 2.5rem;" (click)="submit(add.value)" >Update Product
+              </button>
+             
+              </div>
+    
+            </form>
+          </div>
+        </div>
+      </div>
